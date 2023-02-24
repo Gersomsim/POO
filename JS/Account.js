@@ -1,7 +1,7 @@
-function Acount(){
+function Acount(name, document){
   this.id;
-  this.name;
-  this.document;
+  this.name = name;
+  this.document = name;
   this.email;
   this.password;
 }
