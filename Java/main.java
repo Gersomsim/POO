@@ -2,15 +2,14 @@ package Java;
 class Main {
   public static void main(String[] args) {
     System.out.println("Hola mundo");
-    Car car = new Car();
-    car.license = "AMQ123";
-    car.driver = "Andres Gomez";
+    Account driver = new Account("Juan Roman", "JR123");
+    Car car = new Car("AMQ123", driver);
+
     car.passenger = 4;
     car.printDataCar();
 
-    Car car2 = new Car();
-    car2.license = "QWE123";
-    car2.driver = "Andrea Gomez";
+    Account driver2 = new Account("Andrea Gomez", "AG123");
+    Car car2 = new Car("QWE123", driver2);
     car2.passenger = 2;
     car2.printDataCar();
   }
