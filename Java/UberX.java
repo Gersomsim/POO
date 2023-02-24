@@ -6,7 +6,7 @@ public class UberX extends Car {
 
   public UberX(
     String licence,
-    Account driver,
+    Driver driver,
     String brand,
     String model
   ){

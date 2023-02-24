@@ -6,7 +6,7 @@ public class UberPool extends Car {
 
   public UberPool(
     String licence,
-    Account driver,
+    Driver driver,
     String brand,
     String model
   ){
