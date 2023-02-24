@@ -7,7 +7,7 @@ class UberPool extends Car{
 
   public function __construct(
     string $licence,
-    Account $driver,
+    Driver $driver,
     string $brand,
     string $model
   ){

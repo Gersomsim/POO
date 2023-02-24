@@ -7,7 +7,7 @@ class UberBlack extends Car{
 
   public function __construct(
     string $licence,
-    Account $driver,
+    Driver $driver,
     array $typeCarAccepted,
     array $seatsMaterial
   ){
